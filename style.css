@@ -5,3 +5,28 @@
     box-sizing: border-box; /*pra que las cajas no se desborden*/
 }
 
+.pater{
+}
+    .hero{
+        background: #374d6b;
+    }
+        .header{
+            background: #3d5b85;
+            display:flex;
+        }
+            .headerlogo{
+                background: #3663a2;
+            }
+            .links{
+                background: #3663a2;
+            }
+        .main{
+            background: #3d5b85;
+        }
+            .text{
+                background: #3663a2;
+            }
+            .img{
+                background: #3663a2;
+            }
+
