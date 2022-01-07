@@ -1,32 +1,95 @@
 * {
     background: #1f2937;
-    margin: 10px;
-    padding: 10px;
-    box-sizing: border-box; /*pra que las cajas no se desborden*/
+    margin: 5px;
+    /* padding: 5px; */
+    box-sizing: border-box;
 }
 
 .pater{
+    display: flex;
+    flex-flow: column;
 }
     .hero{
-        background: #374d6b;
+        background: #1F2937;
+        display: flex;
+        flex-flow: column nowrap;
     }
         .header{
-            background: #3d5b85;
+            background: #1F2937;
             display:flex;
+            flex-flow: row nowrap;
         }
             .headerlogo{
-                background: #3663a2;
+                background: #1F2937;
+                display: flex;
+                flex: 1 1 50%;
+                font: 24px;
+                font-weight: bolder;
+                color: #F9FAF8;
             }
             .links{
-                background: #3663a2;
+                background: #1F2937;
+                display: flex;
+                flex: 1 1 50%;
+                flex-flow: row nowrap;
+                justify-content: space-between;
+                align-content: center;
+                font-weight: 18px;
+
             }
+                .headerlinkone{
+                    display: flex;
+                    flex: 1 1 33%;
+                    text-decoration: none;
+                    color: #E5E7EB;
+                }
+                .headerlinktwo{
+                    display: flex;
+                    flex: 1 1 33%;
+                    text-decoration: none;
+                    color: #E5E7EB;
+                }
+                .headerlinkthree{
+                    display: flex;
+                    flex: 1 1 33%;
+                    text-decoration: none;
+                    color: #E5E7EB;
+                }
         .main{
-            background: #3d5b85;
+            background: #1F2937;
+            display: flex;
+            flex-flow: row nowrap;
         }
             .text{
-                background: #3663a2;
+                background: #1F2937;
+                display: flex;
+                flex-flow: column;
+                flex: 1 1 50%;
+                justify-content: center;
+                align-content: center;
             }
-            .img{
-                background: #3663a2;
+                .maintitle{
+                    font-size: 48px;
+                    font-weight: bolder;
+                    color: #F9FAF8;
+                }
+                .maintext{
+                    display: flex;
+                    font-size: 18px;
+                    color: #E5E7EB;
+                }
+                .mainbutton{
+                    display: flex;
+                    justify-content:start;
+                    font-weight: bold;
+                    color: #F9FAF8;
+                    background: #3882F6;
+                    border: 0px solid #0099CC;
+                }
+            .mainimg{
+                background: #1F2937;
+                display: flex;
+                flex: 1 1 50%;
+                justify-content: center;
             }
 
