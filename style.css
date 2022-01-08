@@ -1,6 +1,10 @@
 /*
-Falta agregar margenes el el primer bloque para que imagen y texto principal queden más centrados
-    al menos respecto a la imagen de ejemplo
+Resta quitar pater y comprobar cómo queda el maqueteo más general.
+Resta agregar una correcta justificación a los textos bajo las imagenes.
+Resta dar forma redonda a los botones.
+Resta corregir sección 'call to action'.
+Resta agregar footer.
+Corregir botón de header.
 */
 
 * {
@@ -9,7 +13,6 @@ Falta agregar margenes el el primer bloque para que imagen y texto principal que
     /* padding: 5px; */
     box-sizing: border-box;
 }
-
 .pater{
     display: flex;
     flex-flow: column;
@@ -182,9 +185,6 @@ Falta agregar margenes el el primer bloque para que imagen y texto principal que
         display: flex;
         flex-flow: column;
         flex: 1 1 auto;
-        justify-content: center;
-        justify-items: center;
-        align-content: center;
     }
         .quotecontainer{
             background-color: #E5E7EB;
@@ -203,7 +203,6 @@ Falta agregar margenes el el primer bloque para que imagen y texto principal que
                 justify-self: center;
                 font-style: italic;
                 font-size: 36px;
-
             }
             .quoteby{
                 background-color: #E5E7EB;
@@ -212,6 +211,63 @@ Falta agregar margenes el el primer bloque para que imagen y texto principal que
                 flex-direction: row-reverse;
                 font-size: 18px;
             }
+    .calltoaction{
+        background-color: #E5E7EB;
+    }
+        .callcontainer{
+            background-color: #3882F6;
+            display: flex;
+            flex-flow:row nowrap;
+            justify-content: center;
+            margin: 100px;
+            padding: 25px;  
+            margin-left: 200px;
+            margin-right: 200px;
+            border-radius:15px 15px 15px 15px;
+        }
+            .callinfo{
+                background-color: #3882F6;
+                display: flex;
+                flex: 2 1 auto;
+                flex-flow: column;
+                align-self: stretch;
+                justify-content: space-between;
+            }
+                .calltitle{
+                    display: flex;
+                    background-color: #3882F6;
+                    color: #E5E7EB;
+                    font-size: 18px;
+                    font-weight: bold;
+                }
+                .callsubtitle{
+                    display: flex;
+                    background-color: #3882F6;
+                    color: #E5E7EB;
+                }
+            .callbuttoncontainer{
+                background-color: #3882F6;
+                display: flex;
+                flex: 1 1 auto;
+                border: #E5E7EB;
+                justify-content: space-between;
+                align-content: center;
+                align-items: center;
+                align-self: stretch;
+            }
+                .callbutton{
+                    background-color: #3882F6;
+                    color: white;
+                    /* font-weight: bold; */
+                    border-radius:5px 5px 5px 5px;
+                    /* border: 4px white;  */
+                    border-width: 3px;
+                    padding: 15px;
+                    display: flex;
+                    flex: 0.5 0.5 50%;
+                    align-self: center;
+                    justify-content: center;
+                }
     .footer{
 
     }
